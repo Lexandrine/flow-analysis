@@ -20,12 +20,9 @@ graph LR
     F -->|Обратная связь| G[ Адаптивная калибровка порогов]
     G -->|Обновление весов| B
     
-    style A fill:#2c3e50,stroke:#333,stroke-width:2px,color:#fff
-    style B fill:#8e44ad,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#e74c3c,stroke:#333,stroke-width:2px,color:#fff
-    style F fill:#f39c12,stroke:#333,stroke-width:2px,color:#fff
-    style G fill:#27ae60,stroke:#333,stroke-width:2px,color:#fff
 ```
+
+
 
 ### Ключевые этапы нового процесса:
 1. **Контекстное обогащение:** Сырые данные (скорость, интервалы, класс ТС) автоматически дополняются признаками времени суток, дня недели и погодных условий.
